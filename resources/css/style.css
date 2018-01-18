@@ -1,0 +1,32 @@
+html{
+  font-size: 18px;
+  font-family: Helvetica;
+  color: white;
+}
+
+
+
+/*Header*/
+.header{
+  display: inline-flex;	
+  background-color: black;
+  height: 4rem;
+  width: 100%;
+  align-items: center;
+}
+
+.header img{
+  height: 1.5rem;
+  width: auto; 
+  padding-right: 0.5rem;
+  padding-left: 1rem;  
+  margin-left: 10rem;
+}
+
+.header img,
+.header span{
+	padding-top:0.66rem;
+	padding-bottom:0.66rem;
+	
+}
+
