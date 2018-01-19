@@ -25,18 +25,19 @@ html{
 
 .header img,
 .header span{
-	padding-top:0.66rem;
-	padding-bottom:0.66rem;
-	
+  padding-top:0.66rem;
+  padding-bottom:0.66rem;	
 }
 
 /*Body*/
 .body{
-	display: flex;
-	background-color: black;
-	width: 100%;
-	height: 100%;
-	justify-content: center;
+  display: flex;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  flex-direction: column;
+  
 }
 
 /*Banner*/
@@ -63,14 +64,27 @@ html{
 }
 
 .banner p{
-	font-weight: bold;
-	padding-top: 1rem;
-	padding-left: 3rem;
-
+  font-weight: bold;
+  padding-top: 1rem;
+  padding-left: 3rem;
 }
 .banner span{
-  	font-size: 2rem;
-	font-weight: bold;
-	padding-left: 3rem;
-	margin-bottom: 1.5rem;
+  font-size: 2rem;
+  font-weight: bold;
+  padding-left: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+/*nav*/
+.nav {
+ display: inline-flex;
+ height: 5 rem;
+ width: 65rem;
+ justify-content: space-around;
+ background-color: firebrick;
+}
+
+.nav li{
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;  
 }
