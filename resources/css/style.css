@@ -20,7 +20,7 @@ html{
   width: auto; 
   padding-right: 0.5rem;
   padding-left: 1rem;  
-  margin-left: 10rem;
+  margin-left: 28rem;
 }
 
 .header img,
@@ -30,3 +30,47 @@ html{
 	
 }
 
+/*Body*/
+.body{
+	display: flex;
+	background-color: black;
+	width: 100%;
+	height: 100%;
+	justify-content: center;
+}
+
+/*Banner*/
+.background_image{
+  display: flex;
+  background-image: url("../images/banner-background.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 20rem;
+  width: 65rem;
+  align-items: center;
+}
+
+.banner {
+  background-color: black;	
+  width: 25rem;
+  height: 9rem;
+  margin-top: 1rem;
+  margin-left: 8.5rem;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.banner p{
+	font-weight: bold;
+	padding-top: 1rem;
+	padding-left: 3rem;
+
+}
+.banner span{
+  	font-size: 2rem;
+	font-weight: bold;
+	padding-left: 3rem;
+	margin-bottom: 1.5rem;
+}
