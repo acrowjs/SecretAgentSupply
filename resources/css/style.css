@@ -182,4 +182,11 @@ html{
   margin-top: 0.5rem;  
 }
 
-
+/*footer*/
+.footer{
+  height: 7rem;
+  background-color: black;  
+  padding-left: 28rem;
+  display: flex;
+  align-items: center;
+}
