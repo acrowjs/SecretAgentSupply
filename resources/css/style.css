@@ -85,10 +85,25 @@ html{
 }
  
 /*first row*/
+.bottom{
+  
+  background-color: black;
+}
+
+.white{
+
+  width: 61.446%;
+  margin-left: 20.4rem;
+  background-color: white;
+  
+}
+
 .first_row{
   height: 100%;
   display: inline-flex;
   flex-direction: row;
+  
+  
 }
 
 .first_row span{
@@ -108,15 +123,15 @@ html{
   align-items: center;
   flex-direction: column;  
   margin-top: 3rem;
-  margin-left: 28rem;
+  margin-left: 8rem;
   padding-top: 1rem;
   
 }
 
 .pen img{
-	height: 9rem;
-	width: auto;
-	padding-bottom: 1rem;	
+  height: 9rem;
+  width: auto;
+  padding-bottom: 1rem;	
 }
 
 .watch{
@@ -157,23 +172,25 @@ html{
 }
 
 /*second row*/
+
 .second_row{
   height: 7rem;
-  width: 41.95%;
+  width: 68%;
   display: flex;
-  margin-left: 28rem;
+  margin-left: 8rem;
   margin-top: 3rem;
   justify-content: space-between; 
+ 
 }
 
 .one .box,
 .two .box{
   height: 3rem;
-  width: 15rem; 
+  width: 10rem; 
   background-color: black;  
   display: flex;
   align-items: center;
-  padding-left: 2rem;
+  padding-left: 1rem;
 }
 
 .one .box2,
