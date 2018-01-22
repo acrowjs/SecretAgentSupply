@@ -37,7 +37,6 @@ html{
   height: 100%;
   align-items: center;
   flex-direction: column;
-  
 }
 
 /*Banner*/
@@ -47,7 +46,7 @@ html{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 20rem;
+  height: 25rem;
   width: 65rem;
   align-items: center;
 }
@@ -78,13 +77,83 @@ html{
 /*nav*/
 .nav {
  display: inline-flex;
- height: 5 rem;
+ height: 2.5rem;
  width: 65rem;
  justify-content: space-around;
+ align-items: center;
  background-color: firebrick;
 }
-
-.nav li{
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;  
+ 
+/*first row*/
+.first_row{
+  height: 100%;
+  display: inline-flex;
+  flex-direction: row;
 }
+
+.first_row span{
+  background-color: black;
+  width: 13rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pen{
+  border: 4px solid black;
+  width: 13rem;
+  height: 12rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;  
+  margin-top: 3rem;
+  margin-left: 28rem;
+  padding-top: 1rem;
+  
+}
+
+.pen img{
+	height: 9rem;
+	width: auto;
+	padding-bottom: 1rem;	
+}
+
+.watch{
+  border: 4px solid black;
+  width: 13rem;
+  height: 12rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;  
+  margin-top: 3rem;
+  margin-left: 2rem;
+  padding-top: 1rem; 
+}
+
+.watch img{
+  height: 9rem;
+  width: auto;
+  padding-bottom: 1rem;	
+}
+
+.glasses{
+  border: 4px solid black;
+  width: 13rem;
+  height: 12rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;  
+  margin-top: 3rem;
+  margin-left: 2rem;
+  padding-top: 1rem;	
+}
+
+.glasses img{
+  height: auto;
+  width: 9rem;
+  padding-top: 2.5rem; 
+}
+
+/*second row*/
