@@ -157,3 +157,29 @@ html{
 }
 
 /*second row*/
+.second_row{
+  height: 7rem;
+  width: 41.95%;
+  display: flex;
+  margin-left: 28rem;
+  margin-top: 3rem;
+  justify-content: space-between; 
+}
+
+.one .box,
+.two .box{
+  height: 3rem;
+  width: 15rem; 
+  background-color: black;  
+  display: flex;
+  align-items: center;
+  padding-left: 2rem;
+}
+
+.one .box2,
+.two .box2{
+  color: black;
+  margin-top: 0.5rem;  
+}
+
+
